@@ -40,6 +40,10 @@ app.post('/', (req, res, next)=>{
     .catch(next)
 })
 
+app.get('/test', (req, res, next)=>{
+  res.send('test')
+})
+
 
 app.listen(port, ()=>{
   console.log(`listening on port ${port}`);

@@ -5,7 +5,7 @@ const Test = require('./models/test')
 const port = process.env.PORT || 3000
 
 const app = express()
-const mongoAtlas = 'mongodb+srv://indra:Indra880@mycluster-icpdp.gcp.mongodb.net/test?retryWrites=true&w=majority'
+const mongoAtlas = "mongodb+srv://indra:Indra880@mycluster-icpdp.gcp.mongodb.net/test?retryWrites=true&w=majority"
 
 app.use(cors())
 app.use(express.json())
